@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #3882f6;
+  color: #F9FAF8 ;
+  border: 0;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Utilities */
+.extra-bold {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.white {
+  font-size: 18px;
+  color: #E5E7Eb;
+}
+
+
+
+/* First session */
+.header, .first-content, .second-container {
+  max-width: 1000px;
+}
+
+.first-container {
+  background-color: #1F2937;
+  padding: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.first-content {
+  display: flex;
+  align-items: center;
+  margin: 2em auto;
+  padding-bottom: 2em;
+  height: 30vh;
+}
+
+.logo {
+  padding: 10px;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.left {
+  margin-right: 30px;
+}
+
+.left > h1, .left > p {
+  margin: 16px;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Second Session */
+.second-container {
+  display: flex;
+}
+
+.smallbox{
+  ;
+  border-radius: 5px;
+  border: 2px solid #3882f6;
+}
